@@ -93,13 +93,13 @@ ALTER TABLE pasaje
 /* -- Inserta en tablas */
 /* -- INSERTAR EN aeropuerto
 -- codaeropuerto VARCHAR2 (10),  nombre VARCHAR2 (20) ciudad VARCHAR2 (20) , pais VARCHAR2 (20) */
-insert into aeropuerto values ('BRU EBBR', 'Bruselas-Zaventem', 'Bruselas', 'BÈlgica', 20);
-insert into aeropuerto values ('RL  EBCI', 'Bruselas-Charleroi', 'Bruselas', 'BÈlgica', 20);
-insert into aeropuerto values ('PRG LKPR', 'aeropuerto de Praga', 'Praga', 'Rep˙blica Checa',50);
+insert into aeropuerto values ('BRU EBBR', 'Bruselas-Zaventem', 'Bruselas', 'B√©lgica', 20);
+insert into aeropuerto values ('RL  EBCI', 'Bruselas-Charleroi', 'Bruselas', 'B√©lgica', 20);
+insert into aeropuerto values ('PRG LKPR', 'aeropuerto de Praga', 'Praga', 'Rep√∫blica Checa',50);
 insert into aeropuerto values ('CPH EKCH', 'Copenhague-Kastrup', 'Copenhague', 'Dinamarca',150);
 
-insert into aeropuerto values ('MAD LEMD', 'Madrid-Barajas', 'Madrid', 'EspaÒa', 30);
-insert into aeropuerto values ('PMI LEPA', 'Son San Juan', 'Palma de Mallorca', 'EspaÒa',30);
+insert into aeropuerto values ('MAD LEMD', 'Madrid-Barajas', 'Madrid', 'Espa√±a', 30);
+insert into aeropuerto values ('PMI LEPA', 'Son San Juan', 'Palma de Mallorca', 'Espa√±a',30);
 insert into aeropuerto values ('HEL EFHK', 'Helsinki-Vantaa', 'Helsinki', 'Finlandia',170);
 insert into aeropuerto values ('GWY EICM', 'aeropuerto de Galway', 'Galway', 'Irlanda',30);
 
@@ -109,85 +109,85 @@ insert into aeropuerto values ('OSL ENGM', 'Oslo-Gardermoen', 'Olso', 'Noruega',
 
 
 /*----pasajero,  cod NUMBER (5)     nombre VARCHAR2 (30) ,   tlf VARCHAR2 (10) ,  direccion VARCHAR2 (40)  */
-INSERT INTO pasajero VALUES (1,'ATONIO MARTÕNEZ', '123456','AVDA MADRID 2, 2∫A, TALAVERA', 'ESPA—A');
-INSERT INTO pasajero VALUES (2,'MARIA DUE—AS', '444456','AVDA ALFARES 4, 8∫A, MADRID','ESPA—A');
-INSERT INTO pasajero VALUES (3,'CARLOS GIL', '568956','C/ALAMEDA 20, MADRID','ESPA—A');
-INSERT INTO pasajero VALUES (4,'MARIA JIMENEZ', '990456','C/LA MONTERA 50, TALAVERA','ESPA—A');
-INSERT INTO pasajero VALUES (5,'ROSARIO FORES', '123888','C/LA RIADA 3, ALCORC”N','ESPA—A');
-INSERT INTO pasajero VALUES (6,'ALICIA RAMOS', '66688','C/LOS PINTORES 10, TALAVERA','ESPA—A');
+INSERT INTO pasajero VALUES (1,'ATONIO MART√çNEZ', '123456','AVDA MADRID 2, 2¬∫A, TALAVERA', 'ESPA√ëA');
+INSERT INTO pasajero VALUES (2,'MARIA DUE√ëAS', '444456','AVDA ALFARES 4, 8¬∫A, MADRID','ESPA√ëA');
+INSERT INTO pasajero VALUES (3,'CARLOS GIL', '568956','C/ALAMEDA 20, MADRID','ESPA√ëA');
+INSERT INTO pasajero VALUES (4,'MARIA JIMENEZ', '990456','C/LA MONTERA 50, TALAVERA','ESPA√ëA');
+INSERT INTO pasajero VALUES (5,'ROSARIO FORES', '123888','C/LA RIADA 3, ALCORC√ìN','ESPA√ëA');
+INSERT INTO pasajero VALUES (6,'ALICIA RAMOS', '66688','C/LOS PINTORES 10, TALAVERA','ESPA√ëA');
 INSERT INTO pasajero VALUES (7,'ANA FUENTES', '8903456','C/LA REINA 34, MADRID','FRANCIA');
 
-INSERT INTO pasajero VALUES (8,'PETRA ALONSO', '222456','AVDA MADRID 32, 2∫A, TALAVERA','FRANCIA');
-INSERT INTO pasajero VALUES (9,'ANGEL GIL', '444026','AVDA ALFARES 14, 8∫A, MADRID','FRANCIA');
+INSERT INTO pasajero VALUES (8,'PETRA ALONSO', '222456','AVDA MADRID 32, 2¬∫A, TALAVERA','FRANCIA');
+INSERT INTO pasajero VALUES (9,'ANGEL GIL', '444026','AVDA ALFARES 14, 8¬∫A, MADRID','FRANCIA');
 INSERT INTO pasajero VALUES (10,'MARTIN PESACADOR', '238956','C/ALAMEDA 21, MADRID','FRANCIA');
 INSERT INTO pasajero VALUES (11,'LUIS CABRERO', '130456','C/LA CAPA 50, TALAVERA','FRANCIA');
-INSERT INTO pasajero VALUES (12,'JES⁄S GINER FORES', '23888','C/LA REJA 4, ALCORC”N','FRANCIA');
+INSERT INTO pasajero VALUES (12,'JES√öS GINER FORES', '23888','C/LA REJA 4, ALCORC√ìN','FRANCIA');
 INSERT INTO pasajero VALUES (13,'CARMEN RAMI', '6668809','C/LOS SAUCES 10, TALAVERA','PORTUGAL');
 INSERT INTO pasajero VALUES (14,'FELIME PRIMERO', '89803456','C/LA ROSA 3, MADRID','PORTUGAL');
 
 
-INSERT INTO pasajero VALUES (15,'JUANJO P…REZ', '92522245','AVDA CACERES 32, 2∫A, TALAVERA','PORTUGAL');
-INSERT INTO pasajero VALUES (16,'PEDRO ALÕA', '949944026','AVDA DANZANTES 14, 8∫A, MADRID','PORTUGAL');
-INSERT INTO pasajero VALUES (17,'SERGIO GRACÕA', '912238956','C/GINER DE LOS RIOS 21, LEGAN…S','PORTUGAL');
-INSERT INTO pasajero VALUES (18,'MRÕA CABRERO', '925130456','C/LA HERRADURA 30, TORRIJOS','PORTUGAL');
-INSERT INTO pasajero VALUES (19,'OSCAR ALONSO', '918823888','C/LOS MOLINOS 3, ALCAL¡ DE HENARES','ALEMANIA');
-INSERT INTO pasajero VALUES (20,'PILAR MARTÕN', '925666880','C/ALVARADO 30, TOLEDO','ESPA—A');
-INSERT INTO pasajero VALUES (21,'ANG…LICA SEGUNDO', '918980345','C/LA ROSA 3, ALCAL¡ DE HENARES','ESPA—A');
+INSERT INTO pasajero VALUES (15,'JUANJO P√âREZ', '92522245','AVDA CACERES 32, 2¬∫A, TALAVERA','PORTUGAL');
+INSERT INTO pasajero VALUES (16,'PEDRO AL√çA', '949944026','AVDA DANZANTES 14, 8¬∫A, MADRID','PORTUGAL');
+INSERT INTO pasajero VALUES (17,'SERGIO GRAC√çA', '912238956','C/GINER DE LOS RIOS 21, LEGAN√âS','PORTUGAL');
+INSERT INTO pasajero VALUES (18,'MR√çA CABRERO', '925130456','C/LA HERRADURA 30, TORRIJOS','PORTUGAL');
+INSERT INTO pasajero VALUES (19,'OSCAR ALONSO', '918823888','C/LOS MOLINOS 3, ALCAL√Å DE HENARES','ALEMANIA');
+INSERT INTO pasajero VALUES (20,'PILAR MART√çN', '925666880','C/ALVARADO 30, TOLEDO','ESPA√ëA');
+INSERT INTO pasajero VALUES (21,'ANG√âLICA SEGUNDO', '918980345','C/LA ROSA 3, ALCAL√Å DE HENARES','ESPA√ëA');
 
 
-INSERT INTO pasajero VALUES (22,'MIRIAM CAMACHO', '92544245','AVDA MADRID 32, 2∫A, TALAVERA','ESPA—A');
-INSERT INTO pasajero VALUES (23,'ROSA ALÕA', '949870026','AVDA SANZ VAZQUEZ 2, 8∫A, MADRID','ESPA—A');
-INSERT INTO pasajero VALUES (24,'ALICIA GARCÕA', '916738956','C/LIBREROS 23, LEGAN…S','ESPA—A');
+INSERT INTO pasajero VALUES (22,'MIRIAM CAMACHO', '92544245','AVDA MADRID 32, 2¬∫A, TALAVERA','ESPA√ëA');
+INSERT INTO pasajero VALUES (23,'ROSA AL√çA', '949870026','AVDA SANZ VAZQUEZ 2, 8¬∫A, MADRID','ESPA√ëA');
+INSERT INTO pasajero VALUES (24,'ALICIA GARC√çA', '916738956','C/LIBREROS 23, LEGAN√âS','ESPA√ëA');
 INSERT INTO pasajero VALUES (25,'MARY CASTUERA', '925220400','C/LA MINA 5, TORRIJOS','ALEMANIA');
-INSERT INTO pasajero VALUES (26,'SERGIO ALONSO', '91673888','C/LOS ALCORES 41, ALCAL¡ DE HENARES','ALEMANIA');
-INSERT INTO pasajero VALUES (27,'RAQUEL RINC”N', '925316882','C/¡VILA 13, TOLEDO','ALEMANIA');
-INSERT INTO pasajero VALUES (28,'TITO VALVERDE', '916675544','C/LA FRUTA 33, ALCAL¡ DE HENARES','ALEMANIA');
+INSERT INTO pasajero VALUES (26,'SERGIO ALONSO', '91673888','C/LOS ALCORES 41, ALCAL√Å DE HENARES','ALEMANIA');
+INSERT INTO pasajero VALUES (27,'RAQUEL RINC√ìN', '925316882','C/√ÅVILA 13, TOLEDO','ALEMANIA');
+INSERT INTO pasajero VALUES (28,'TITO VALVERDE', '916675544','C/LA FRUTA 33, ALCAL√Å DE HENARES','ALEMANIA');
 
 /* - TABLA vuelo
 --  identificador VARCHAR2 (10) ,    aeropuerto_origen ,  aeropuerto_destino ,  tipo_vuelo VARCHAR2 (15) 
 -- identificador IBE- Iberia, BRU- bruselas airlines, RYA -Ryanair, 
 -- VUE vueling, QAT qatar, DEL delta, KLM KLM, AVI Avianca
 
--- tipo_vuelo IN ('CHARTER', 'DIRECTO', 'DOM…STICO', 'LARGO RECORRIDO', 'LOW COST', 'REGULAR')
+-- tipo_vuelo IN ('CHARTER', 'DIRECTO', 'DOM√âSTICO', 'LARGO RECORRIDO', 'LOW COST', 'REGULAR')
 
 -- origen 'BRU	EBBR', 'Bruselas-Zaventem'
 -- destinoS ('CPH	EKCH', 'Copenhague-Kastrup', 'Copenhague', 'Dinamarca');
--- ('MAD LEMD', 'Madrid-Barajas', 'Madrid', 'EspaÒa')
--- ('PMI	LEPA', 'Son San Juan', 'Palma de Mallorca', 'EspaÒa'); */
+-- ('MAD LEMD', 'Madrid-Barajas', 'Madrid', 'Espa√±a')
+-- ('PMI	LEPA', 'Son San Juan', 'Palma de Mallorca', 'Espa√±a'); */
 
 INSERT INTO vuelo VALUES ('BRU-1234','BRU EBBR','CPH EKCH','CHARTER',DATE_ADD(curdate(),interval 30 day), 5);
 INSERT INTO vuelo VALUES ('BRU-2222','BRU EBBR','MAD LEMD','DIRECTO',DATE_ADD(curdate(),interval 6 day), 5);
 INSERT INTO vuelo VALUES ('KLM-2343','BRU EBBR','PMI LEPA','DIRECTO',DATE_ADD(curdate(),interval 5 day), 10);
 
 
-/*  origen ('MAD	LEMD', 'Madrid-Barajas', 'Madrid', 'EspaÒa');
+/*  origen ('MAD	LEMD', 'Madrid-Barajas', 'Madrid', 'Espa√±a');
 -- destinoS ('HEL EFHK', 'Helsinki-Vantaa', 'Helsinki', 'Finlandia');
 -- ('GWY EICM', 'aeropuerto de Galway', 'Galway', 'Irlanda');
 -- ('OSL ENGM', 'Oslo-Gardermoen', 'Olso', 'Noruega'); 'PRG	LKPR' PRAGA   */
-INSERT INTO vuelo VALUES ('IBE-762','MAD LEMD','HEL EFHK','DOM…STICO',DATE_ADD(curdate(),interval 30 day),5);
+INSERT INTO vuelo VALUES ('IBE-762','MAD LEMD','HEL EFHK','DOM√âSTICO',DATE_ADD(curdate(),interval 30 day),5);
 INSERT INTO vuelo VALUES ('IBE-789','MAD LEMD','GWY EICM','DIRECTO',DATE_ADD(curdate(),interval 63 day), 10);
 INSERT INTO vuelo VALUES ('AVI-ASD','MAD LEMD','OSL ENGM','LARGO RECORRIDO',DATE_ADD(curdate(),interval 31 day), 10);
 INSERT INTO vuelo VALUES ('AVI-345','MAD LEMD','BRU EBBR','LARGO RECORRIDO',DATE_ADD(curdate(),interval 15 day), 5);
 INSERT INTO vuelo VALUES ('DEL-456','MAD LEMD','PRG LKPR','LARGO RECORRIDO',DATE_ADD(curdate(),interval 70 day), 20);
 
 /*  origen ('CPH	EKCH', 'Copenhague-Kastrup', 'Copenhague', 'Dinamarca');
--- destinoS  ('BRU	EBBR', 'Bruselas-Zaventem', 'Bruselas', 'BÈlgica');
--- ('RL	EBCI', 'Bruselas-Charleroi', 'Bruselas', 'BÈlgica');
--- ('PRG	LKPR', 'aeropuerto de Praga', 'Praga', 'Rep˙blica Checa');
--- ('MAD	LEMD', 'Madrid-Barajas', 'Madrid', 'EspaÒa');   */
+-- destinoS  ('BRU	EBBR', 'Bruselas-Zaventem', 'Bruselas', 'B√©lgica');
+-- ('RL	EBCI', 'Bruselas-Charleroi', 'Bruselas', 'B√©lgica');
+-- ('PRG	LKPR', 'aeropuerto de Praga', 'Praga', 'Rep√∫blica Checa');
+-- ('MAD	LEMD', 'Madrid-Barajas', 'Madrid', 'Espa√±a');   */
 
-INSERT INTO vuelo VALUES ('DEL-34', 'CPH EKCH', 'BRU EBBR','DOM…STICO',DATE_ADD(curdate(),interval 80 day), 10);
+INSERT INTO vuelo VALUES ('DEL-34', 'CPH EKCH', 'BRU EBBR','DOM√âSTICO',DATE_ADD(curdate(),interval 80 day), 10);
 INSERT INTO vuelo VALUES ('KLM-332','CPH EKCH', 'HEL EFHK','DIRECTO',DATE_ADD(curdate(),interval 77 day), 5);
 INSERT INTO vuelo VALUES ('IBE-212','CPH EKCH', 'RL  EBCI','CHARTER',DATE_ADD(curdate(),interval 32 day), 10);
 INSERT INTO vuelo VALUES ('QAT-224','CPH EKCH', 'PRG LKPR','CHARTER',DATE_ADD(curdate(),interval 20 day), 20);
-INSERT INTO vuelo VALUES ('KLM-78', 'CPH EKCH', 'MAD LEMD','DOM…STICO',DATE_ADD(curdate(),interval 66 day), 10);
+INSERT INTO vuelo VALUES ('KLM-78', 'CPH EKCH', 'MAD LEMD','DOM√âSTICO',DATE_ADD(curdate(),interval 66 day), 10);
 
-/*  origen ('PMI	LEPA', 'Son San Juan', 'Palma de Mallorca', 'EspaÒa');
+/*  origen ('PMI	LEPA', 'Son San Juan', 'Palma de Mallorca', 'Espa√±a');
 -- destinoS  ('HEL	EFHK', 'Helsinki-Vantaa', 'Helsinki', 'Finlandia');
 -- ('GWY	EICM', 'aeropuerto de Galway', 'Galway', 'Irlanda');
 -- ('OSL	ENGM', 'Oslo-Gardermoen', 'Olso', 'Noruega');
---  ('MAD	LEMD', 'Madrid-Barajas', 'Madrid', 'EspaÒa');   */
-INSERT INTO vuelo VALUES ('IBE-234', 'PMI LEPA','HEL EFHK','DOM…STICO',DATE_ADD(curdate(),interval 40 day),5);
+--  ('MAD	LEMD', 'Madrid-Barajas', 'Madrid', 'Espa√±a');   */
+INSERT INTO vuelo VALUES ('IBE-234', 'PMI LEPA','HEL EFHK','DOM√âSTICO',DATE_ADD(curdate(),interval 40 day),5);
 INSERT INTO vuelo VALUES ('RYA-22',  'PMI LEPA','GWY EICM','CHARTER',DATE_ADD(curdate(),interval 8 day), 5);
 INSERT INTO vuelo VALUES ('RYA-230', 'PMI LEPA','OSL ENGM','CHARTER',DATE_ADD(curdate(),interval 25 day), 8);
 INSERT INTO vuelo VALUES ('QAT-900', 'PMI LEPA','MAD LEMD','REGULAR',DATE_ADD(curdate(),interval 67 day),10);
